@@ -1,0 +1,28 @@
+{
+  "name": "maison-france5-rubrique-changer-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/casperjs --engine=phantomjs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vogloblinsky@github.com/vogloblinsky/maison-france5-rubrique-changer-crawler.git"
+  },
+  "author": "vogloblinsky-sii <vogloblinsky@sii.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vogloblinsky/maison-france5-rubrique-changer-crawler/issues"
+  },
+  "homepage": "https://github.com/vogloblinsky/maison-france5-rubrique-changer-crawler#readme",
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "color-thief": "^2.2.2",
+    "dominant-color": "0.0.1",
+    "glob": "^7.1.1",
+    "phantomjs": "^2.1.7",
+    "rimraf": "^2.5.4",
+    "slimerjs": "^0.906.2"
+  }
+}
